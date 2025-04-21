@@ -1,4 +1,3 @@
-# Labfibonacci-
 # Fibonacci Sequence Program
 
 def fibonacci(n):
@@ -14,7 +13,7 @@ def fibonacci(n):
 
 def main():
     print("Welcome to the Fibonacci Sequence Program!")
-
+    
     # Ask the user how many terms they want to generate
     while True:
         try:
@@ -25,12 +24,11 @@ def main():
                 break
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
-
+    
     print(f"\nGenerating the first {n} terms of the Fibonacci sequence:")
     for i in range(n):
         print(f"F({i}) = {fibonacci(i)}")
 
-# Run the program
+
 if __name__ == "__main__":
     main()
-
